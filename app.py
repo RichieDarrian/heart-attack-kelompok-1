@@ -3,8 +3,8 @@ import joblib
 import pandas as pd
 
 # Load artifacts
-preprocessor = joblib.load("artifact/preprocessor.pkl")
-model = joblib.load("artifact/model.pkl")
+preprocessor = joblib.load("preprocessor.pkl")
+model = joblib.load("model.pkl")
 
 
 def make_prediction(input_df):
